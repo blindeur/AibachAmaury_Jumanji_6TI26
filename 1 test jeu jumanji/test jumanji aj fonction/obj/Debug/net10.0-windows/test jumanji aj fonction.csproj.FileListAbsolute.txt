@@ -1,0 +1,20 @@
+E:\1 test jeu jumanji\test jumanji aj fonction\bin\Debug\net10.0-windows\test jumanji aj fonction.exe
+E:\1 test jeu jumanji\test jumanji aj fonction\bin\Debug\net10.0-windows\test jumanji aj fonction.deps.json
+E:\1 test jeu jumanji\test jumanji aj fonction\bin\Debug\net10.0-windows\test jumanji aj fonction.runtimeconfig.json
+E:\1 test jeu jumanji\test jumanji aj fonction\bin\Debug\net10.0-windows\test jumanji aj fonction.dll
+E:\1 test jeu jumanji\test jumanji aj fonction\bin\Debug\net10.0-windows\test jumanji aj fonction.pdb
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\App.g.cs
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction_MarkupCompile.cache
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction_MarkupCompile.lref
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\MainWindow.baml
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction.g.resources
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction.GeneratedMSBuildEditorConfig.editorconfig
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction.AssemblyInfoInputs.cache
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction.AssemblyInfo.cs
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction.csproj.CoreCompileInputs.cache
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction.dll
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\refint\test jumanji aj fonction.dll
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction.pdb
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\test jumanji aj fonction.genruntimeconfig.cache
+E:\1 test jeu jumanji\test jumanji aj fonction\obj\Debug\net10.0-windows\ref\test jumanji aj fonction.dll

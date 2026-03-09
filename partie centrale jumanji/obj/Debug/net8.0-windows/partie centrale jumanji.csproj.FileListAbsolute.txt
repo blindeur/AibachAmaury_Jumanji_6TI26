@@ -1,0 +1,42 @@
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.exe
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.deps.json
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.runtimeconfig.json
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.dll
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.pdb
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\App.g.cs
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji_MarkupCompile.cache
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji_MarkupCompile.lref
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\MainWindow.baml
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.g.resources
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.GeneratedMSBuildEditorConfig.editorconfig
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.AssemblyInfoInputs.cache
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.AssemblyInfo.cs
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.csproj.CoreCompileInputs.cache
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.sourcelink.json
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.dll
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\refint\partie centrale jumanji.dll
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.pdb
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.genruntimeconfig.cache
+E:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\ref\partie centrale jumanji.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.exe
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.deps.json
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.runtimeconfig.json
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\bin\Debug\net8.0-windows\partie centrale jumanji.pdb
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\MainWindow.g.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\App.g.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji_MarkupCompile.cache
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji_MarkupCompile.lref
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\MainWindow.baml
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.g.resources
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.GeneratedMSBuildEditorConfig.editorconfig
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.AssemblyInfoInputs.cache
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.AssemblyInfo.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.csproj.CoreCompileInputs.cache
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.sourcelink.json
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\refint\partie centrale jumanji.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.pdb
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\partie centrale jumanji.genruntimeconfig.cache
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\partie centrale jumanji\obj\Debug\net8.0-windows\ref\partie centrale jumanji.dll

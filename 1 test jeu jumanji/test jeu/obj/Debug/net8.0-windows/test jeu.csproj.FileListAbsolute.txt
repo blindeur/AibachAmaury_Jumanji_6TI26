@@ -1,0 +1,40 @@
+E:\test jeu\bin\Debug\net8.0-windows\test jeu.exe
+E:\test jeu\bin\Debug\net8.0-windows\test jeu.deps.json
+E:\test jeu\bin\Debug\net8.0-windows\test jeu.runtimeconfig.json
+E:\test jeu\bin\Debug\net8.0-windows\test jeu.dll
+E:\test jeu\bin\Debug\net8.0-windows\test jeu.pdb
+E:\test jeu\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\test jeu\obj\Debug\net8.0-windows\App.g.cs
+E:\test jeu\obj\Debug\net8.0-windows\test jeu_MarkupCompile.cache
+E:\test jeu\obj\Debug\net8.0-windows\test jeu_MarkupCompile.lref
+E:\test jeu\obj\Debug\net8.0-windows\MainWindow.baml
+E:\test jeu\obj\Debug\net8.0-windows\test jeu.g.resources
+E:\test jeu\obj\Debug\net8.0-windows\test jeu.GeneratedMSBuildEditorConfig.editorconfig
+E:\test jeu\obj\Debug\net8.0-windows\test jeu.AssemblyInfoInputs.cache
+E:\test jeu\obj\Debug\net8.0-windows\test jeu.AssemblyInfo.cs
+E:\test jeu\obj\Debug\net8.0-windows\test jeu.csproj.CoreCompileInputs.cache
+E:\test jeu\obj\Debug\net8.0-windows\test jeu.dll
+E:\test jeu\obj\Debug\net8.0-windows\refint\test jeu.dll
+E:\test jeu\obj\Debug\net8.0-windows\test jeu.pdb
+E:\test jeu\obj\Debug\net8.0-windows\test jeu.genruntimeconfig.cache
+E:\test jeu\obj\Debug\net8.0-windows\ref\test jeu.dll
+E:\1 test jeu jumanji\test jeu\bin\Debug\net8.0-windows\test jeu.exe
+E:\1 test jeu jumanji\test jeu\bin\Debug\net8.0-windows\test jeu.deps.json
+E:\1 test jeu jumanji\test jeu\bin\Debug\net8.0-windows\test jeu.runtimeconfig.json
+E:\1 test jeu jumanji\test jeu\bin\Debug\net8.0-windows\test jeu.dll
+E:\1 test jeu jumanji\test jeu\bin\Debug\net8.0-windows\test jeu.pdb
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\App.g.cs
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu_MarkupCompile.cache
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu_MarkupCompile.lref
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\MainWindow.baml
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu.g.resources
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu.GeneratedMSBuildEditorConfig.editorconfig
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu.AssemblyInfoInputs.cache
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu.AssemblyInfo.cs
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu.csproj.CoreCompileInputs.cache
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu.dll
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\refint\test jeu.dll
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu.pdb
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\test jeu.genruntimeconfig.cache
+E:\1 test jeu jumanji\test jeu\obj\Debug\net8.0-windows\ref\test jeu.dll

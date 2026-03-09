@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|a:\\6 eme info\\aibachamaury_jumanji_6ti26\\code events jumanji\\core\\jeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|solutionrelative:core\\jeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|a:\\6 eme info\\aibachamaury_jumanji_6ti26\\code events jumanji\\events\\eventjeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|solutionrelative:events\\eventjeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|a:\\6 eme info\\aibachamaury_jumanji_6ti26\\code events jumanji\\events\\reculerjoueurevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|solutionrelative:events\\reculerjoueurevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|a:\\6 eme info\\aibachamaury_jumanji_6ti26\\code events jumanji\\models\\joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|solutionrelative:models\\joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|a:\\6 eme info\\aibachamaury_jumanji_6ti26\\code events jumanji\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35435B10-F925-4455-9B06-D291605F35FE}|code events jumanji.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Jeu.cs",
+              "DocumentMoniker": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Core\\Jeu.cs",
+              "RelativeDocumentMoniker": "Core\\Jeu.cs",
+              "ToolTip": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Core\\Jeu.cs",
+              "RelativeToolTip": "Core\\Jeu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:50:40.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "joueur.cs",
+              "DocumentMoniker": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Models\\joueur.cs",
+              "RelativeDocumentMoniker": "Models\\joueur.cs",
+              "ToolTip": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Models\\joueur.cs",
+              "RelativeToolTip": "Models\\joueur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:49:40.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReculerJoueurEvent.cs",
+              "DocumentMoniker": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Events\\ReculerJoueurEvent.cs",
+              "RelativeDocumentMoniker": "Events\\ReculerJoueurEvent.cs",
+              "ToolTip": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Events\\ReculerJoueurEvent.cs",
+              "RelativeToolTip": "Events\\ReculerJoueurEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:48:11.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventJeu.cs",
+              "DocumentMoniker": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Events\\EventJeu.cs",
+              "RelativeDocumentMoniker": "Events\\EventJeu.cs",
+              "ToolTip": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Events\\EventJeu.cs",
+              "RelativeToolTip": "Events\\EventJeu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:45:21.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\code events jumanji\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAA3wKIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:41:01.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

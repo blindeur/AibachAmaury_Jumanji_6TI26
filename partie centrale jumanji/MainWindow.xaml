@@ -1,0 +1,17 @@
+﻿<Window x:Class="partie_centrale_jumanji.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:partie_centrale_jumanji"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="660" Width="660">
+    <Grid x:Name="grdMain">
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/plateau.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+
+
+    </Grid>
+</Window>

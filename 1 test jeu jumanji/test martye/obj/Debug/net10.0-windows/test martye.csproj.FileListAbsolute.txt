@@ -1,0 +1,40 @@
+E:\test martye\bin\Debug\net10.0-windows\test martye.exe
+E:\test martye\bin\Debug\net10.0-windows\test martye.deps.json
+E:\test martye\bin\Debug\net10.0-windows\test martye.runtimeconfig.json
+E:\test martye\bin\Debug\net10.0-windows\test martye.dll
+E:\test martye\bin\Debug\net10.0-windows\test martye.pdb
+E:\test martye\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\test martye\obj\Debug\net10.0-windows\App.g.cs
+E:\test martye\obj\Debug\net10.0-windows\test martye_MarkupCompile.cache
+E:\test martye\obj\Debug\net10.0-windows\test martye_MarkupCompile.lref
+E:\test martye\obj\Debug\net10.0-windows\MainWindow.baml
+E:\test martye\obj\Debug\net10.0-windows\test martye.g.resources
+E:\test martye\obj\Debug\net10.0-windows\test martye.GeneratedMSBuildEditorConfig.editorconfig
+E:\test martye\obj\Debug\net10.0-windows\test martye.AssemblyInfoInputs.cache
+E:\test martye\obj\Debug\net10.0-windows\test martye.AssemblyInfo.cs
+E:\test martye\obj\Debug\net10.0-windows\test martye.csproj.CoreCompileInputs.cache
+E:\test martye\obj\Debug\net10.0-windows\test martye.dll
+E:\test martye\obj\Debug\net10.0-windows\refint\test martye.dll
+E:\test martye\obj\Debug\net10.0-windows\test martye.pdb
+E:\test martye\obj\Debug\net10.0-windows\test martye.genruntimeconfig.cache
+E:\test martye\obj\Debug\net10.0-windows\ref\test martye.dll
+E:\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.exe
+E:\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.deps.json
+E:\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.runtimeconfig.json
+E:\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.dll
+E:\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.pdb
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\App.g.cs
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye_MarkupCompile.cache
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye_MarkupCompile.lref
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\MainWindow.baml
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.g.resources
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.GeneratedMSBuildEditorConfig.editorconfig
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.AssemblyInfoInputs.cache
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.AssemblyInfo.cs
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.csproj.CoreCompileInputs.cache
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.dll
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\refint\test martye.dll
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.pdb
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.genruntimeconfig.cache
+E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\ref\test martye.dll

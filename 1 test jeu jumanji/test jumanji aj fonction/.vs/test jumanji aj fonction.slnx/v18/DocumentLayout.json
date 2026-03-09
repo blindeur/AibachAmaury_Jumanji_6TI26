@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|e:\\1 test jeu jumanji\\test jumanji aj fonction\\data\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|solutionrelative:data\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|e:\\1 test jeu jumanji\\test jumanji aj fonction\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|solutionrelative:data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|e:\\1 test jeu jumanji\\test jumanji aj fonction\\data\\joueurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|solutionrelative:data\\joueurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|e:\\1 test jeu jumanji\\test jumanji aj fonction\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|e:\\1 test jeu jumanji\\test jumanji aj fonction\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9234B1C-8EEE-2406-181C-97AE4DE3AAE3}|test jumanji aj fonction.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuestionRepository.cs",
+              "DocumentMoniker": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\Data\\QuestionRepository.cs",
+              "RelativeDocumentMoniker": "Data\\QuestionRepository.cs",
+              "ToolTip": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\Data\\QuestionRepository.cs",
+              "RelativeToolTip": "Data\\QuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T10:58:10.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JoueurRepository.cs",
+              "DocumentMoniker": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\Data\\JoueurRepository.cs",
+              "RelativeDocumentMoniker": "Data\\JoueurRepository.cs",
+              "ToolTip": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\Data\\JoueurRepository.cs",
+              "RelativeToolTip": "Data\\JoueurRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T10:57:58.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Database.cs",
+              "DocumentMoniker": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\Data\\Database.cs",
+              "RelativeDocumentMoniker": "Data\\Database.cs",
+              "ToolTip": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\Data\\Database.cs",
+              "RelativeToolTip": "Data\\Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T10:57:36.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-09T08:55:21.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\1 test jeu jumanji\\test jumanji aj fonction\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAADwv5QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T08:55:21.099Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

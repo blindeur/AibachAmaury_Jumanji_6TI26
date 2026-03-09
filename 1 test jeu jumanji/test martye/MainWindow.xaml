@@ -1,0 +1,63 @@
+﻿<Window x:Class="test_martye.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test_martye"
+        mc:Ignorable="d"
+        Background="DarkGreen"
+        ResizeMode="NoResize"
+        Title="MainWindow"   Width="806" Height="732"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Name="grdMain">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="186"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- TITRE -->
+        <TextBlock
+                   Text="Jumanji"
+                   FontSize="50"
+                   Foreground="Gold"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center" Margin="256,0,0,0"/>
+
+        <!-- PLATEAU DYNAMIQUE -->
+        <Grid Grid.Row="1" Grid.Column="0" Name="zonePlateau" Margin="5">
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/plateau.png" Stretch="UniformToFill"/>
+            </Grid.Background>
+        </Grid>
+
+        <!-- VOLET DROIT -->
+        <StackPanel Grid.Row="1" Grid.Column="1">
+
+            <Border Background="#FFB1B192" Padding="10">
+                <StackPanel>
+                    <TextBlock Text="Joueur" FontSize="20"/>
+                    <TextBlock Name="lblJoeur" Text="Joueur 1" FontSize="20"/>
+
+                    <Button Content="LANCER Dé"
+                            Name="btnLacerDe"
+                            Width="150"
+                            FontSize="28"
+                            Margin="0,10"
+                            Click="btnLancerDe_Click"/>
+
+                    <TextBlock Text="Dé sorti :" FontSize="20"/>
+                    <TextBlock Name="lbDe" FontSize="20"/>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </Grid>
+</Window>
