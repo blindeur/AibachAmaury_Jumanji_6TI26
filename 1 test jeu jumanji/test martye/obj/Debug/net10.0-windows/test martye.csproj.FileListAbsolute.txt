@@ -38,3 +38,24 @@ E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\refint\test martye.d
 E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.pdb
 E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.genruntimeconfig.cache
 E:\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\ref\test martye.dll
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.exe
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.deps.json
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.runtimeconfig.json
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.dll
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\bin\Debug\net10.0-windows\test martye.pdb
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\MainWindow.g.cs
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\App.g.cs
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye_MarkupCompile.cache
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye_MarkupCompile.lref
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\MainWindow.baml
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.g.resources
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.GeneratedMSBuildEditorConfig.editorconfig
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.AssemblyInfoInputs.cache
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.AssemblyInfo.cs
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.csproj.CoreCompileInputs.cache
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.sourcelink.json
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.dll
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\refint\test martye.dll
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.pdb
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\test martye.genruntimeconfig.cache
+H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\obj\Debug\net10.0-windows\ref\test martye.dll
