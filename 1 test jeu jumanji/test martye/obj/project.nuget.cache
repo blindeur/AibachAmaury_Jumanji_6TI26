@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "iIQYxpUpijY=",
   "success": true,
   "projectFilePath": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\test martye.csproj",
+=======
+  "dgSpecHash": "Wf8Sz53q9Ss=",
+  "success": true,
+  "projectFilePath": "H:\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\test martye.csproj",
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
   "expectedPackageFiles": [],
   "logs": []
 }

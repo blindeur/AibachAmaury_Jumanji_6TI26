@@ -10,7 +10,11 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = test_martye
+<<<<<<< HEAD
 build_property.ProjectDir = E:\6 eme info\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\
+=======
+build_property.ProjectDir = H:\AibachAmaury_Jumanji_6TI26\1 test jeu jumanji\test martye\
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

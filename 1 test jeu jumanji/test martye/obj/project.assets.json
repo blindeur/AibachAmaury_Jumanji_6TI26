@@ -8,23 +8,31 @@
     "net10.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\230610\\.nuget\\packages\\": {},
+    "C:\\Users\\240539\\.nuget\\packages\\": {},
     "D:\\SOFT\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\test martye.csproj",
       "projectName": "test martye",
       "projectPath": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\test martye.csproj",
       "packagesPath": "C:\\Users\\230610\\.nuget\\packages\\",
       "outputPath": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\obj\\",
+=======
+      "projectUniqueName": "H:\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\test martye.csproj",
+      "projectName": "test martye",
+      "projectPath": "H:\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\test martye.csproj",
+      "packagesPath": "C:\\Users\\240539\\.nuget\\packages\\",
+      "outputPath": "H:\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\obj\\",
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\SOFT\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\230610\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\240539\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -76,7 +84,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

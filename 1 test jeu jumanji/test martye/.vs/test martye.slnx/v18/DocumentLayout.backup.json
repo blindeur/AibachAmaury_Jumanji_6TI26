@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\",
   "Documents": [
     {
@@ -8,6 +9,16 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AC5996E-1626-56A2-BF10-F9874114CFA1}|test martye.csproj|e:\\6 eme info\\aibachamaury_jumanji_6ti26\\1 test jeu jumanji\\test martye\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+=======
+  "WorkspaceRootPath": "H:\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC5996E-1626-56A2-BF10-F9874114CFA1}|test martye.csproj|h:\\aibachamaury_jumanji_6ti26\\1 test jeu jumanji\\test martye\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC5996E-1626-56A2-BF10-F9874114CFA1}|test martye.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC5996E-1626-56A2-BF10-F9874114CFA1}|test martye.csproj|h:\\aibachamaury_jumanji_6ti26\\1 test jeu jumanji\\test martye\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
       "RelativeMoniker": "D:0:0:{7AC5996E-1626-56A2-BF10-F9874114CFA1}|test martye.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -22,15 +33,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
+<<<<<<< HEAD
               "DocumentMoniker": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\MainWindow.xaml",
+=======
+              "DocumentMoniker": "H:\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "H:\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\MainWindow.xaml",
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-02T09:50:01.849Z",
@@ -38,6 +59,7 @@
               "EditorCaption": ""
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DatabaseManager.cs",
@@ -67,6 +89,16 @@
               "ToolTip": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAowFUAAAANAAAAAAAAAA==",
+=======
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "H:\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "H:\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCoAAAAmAAAAAAAAAA==",
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T09:50:01.026Z",
               "EditorCaption": ""

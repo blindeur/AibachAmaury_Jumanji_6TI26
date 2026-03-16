@@ -22,12 +22,23 @@ namespace test_martye
 
     public partial class MainWindow : Window
     {
+<<<<<<< HEAD
         private Button[,] btnB;
         private List<PlayerData> listeJoueurs;
         private int tourIndex = 0;
         private int tailleGrille = 16;
         private Random rnd = new Random();
         private DatabaseManager db = new DatabaseManager();
+=======
+        private Button[,] btnB;   // Plateau 16x16
+        private int playerRow = 1;
+        private int playerCol = 0;
+        private Random rnd = new Random();
+        private int tailleGrille = 16;
+        private int[] colPath = {1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 2, 2 }; // 0 gauche, 1 pas bouger, 2 droite
+        private int[] rowPath = {1, 2, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 0, 1, 2, 1, 2, 2, 1, 1, 1 }; // 0 haut, 1 pas bouger, 2 bas
+        private int playerProgression = 0;
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
 
         public MainWindow()
         {
@@ -58,8 +69,14 @@ namespace test_martye
                     btnB[i, j] = new Button
                     {
                         Background = Brushes.Transparent,
+<<<<<<< HEAD
                         BorderBrush = new SolidColorBrush(Color.FromArgb(50, 255, 255, 255)), // Bordure discrète
                         BorderThickness = new Thickness(0.5)
+=======
+                        BorderBrush = Brushes.Transparent,
+                        BorderThickness = new Thickness(0.5),
+                        
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
                     };
                     Grid.SetRow(btnB[i, j], i);
                     Grid.SetColumn(btnB[i, j], j);
@@ -70,6 +87,7 @@ namespace test_martye
 
         private void UpdatePositionsVisuelles()
         {
+<<<<<<< HEAD
             foreach (var btn in btnB) { btn.Background = Brushes.Transparent; btn.Content = ""; }
 
             foreach (var p in listeJoueurs)
@@ -94,6 +112,47 @@ namespace test_martye
                 PasserAuSuivant();
                 return;
             }
+=======
+            for (int i = 0; i < tailleGrille; i++)
+            {
+                for (int j = 0; j < tailleGrille; j++)
+                {
+                    btnB[i, j].Background = Brushes.Transparent;
+                }
+            }
+            btnB[playerRow, playerCol].Background = Brushes.Green;
+        }
+
+        // ===========================
+        // Lancer de dé
+        // ===========================
+        private void btnLancerDe_Click(object sender, RoutedEventArgs e)
+        {
+            //int dice = 1;
+            int dice = rnd.Next(1, 1);
+            //lblDe.Text = dice.ToString();
+            for (int i = 0; i < dice; i++)
+            {
+                playerProgression++;
+                playerCol += colPath[playerProgression] - 1;
+                playerRow += rowPath[playerProgression] - 1;
+            }
+
+            //while (playerCol >= tailleGrille)
+            //{
+            //    playerCol -= tailleGrille;
+            //    playerRow++;
+            //}
+
+            //if (playerRow >= tailleGrille)
+            //{
+            //    playerRow = tailleGrille - 1;
+            //    playerCol = tailleGrille - 1;
+            //    UpdatePlayerPosition();
+            //    MessageBox.Show("🎉 Vous avez atteint la fin du plateau !");
+            //    return;
+            //}
+>>>>>>> 125dd22f339afef55fd3f37716130da6716e5086
 
             int dice = rnd.Next(1, 7);
             lbDe.Text = dice.ToString(); // Affiche le dé dans ton TextBlock "lbDe"
