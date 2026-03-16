@@ -1,0 +1,84 @@
+CREATE DATABASE IF NOT EXISTS jumanji_db
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+
+USE jumanji_db;
+
+CREATE TABLE IF NOT EXISTS GameSaves
+(
+    id INT NOT NULL AUTO_INCREMENT,
+    playerCount TINYINT UNSIGNED NOT NULL,
+    currentTurnIndex TINYINT UNSIGNED NOT NULL DEFAULT 0,
+    lastDice TINYINT UNSIGNED NOT NULL DEFAULT 0,
+    updatedAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    UNIQUE KEY ux_gamesaves_playercount (playerCount)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS GamePlayers
+(
+    id INT NOT NULL AUTO_INCREMENT,
+    gameId INT NOT NULL,
+    playerIndex TINYINT UNSIGNED NOT NULL,
+    name TINYTEXT NOT NULL,
+    posX TINYINT UNSIGNED NOT NULL DEFAULT 0,
+    posY TINYINT UNSIGNED NOT NULL DEFAULT 0,
+    color CHAR(7) NOT NULL,
+    isBlocked BIT NOT NULL DEFAULT b'0',
+    PRIMARY KEY (id),
+    UNIQUE KEY ux_gameplayers_slot (gameId, playerIndex),
+    KEY ix_gameplayers_gameid (gameId),
+    CONSTRAINT fk_gameplayers_gamesaves
+        FOREIGN KEY (gameId) REFERENCES GameSaves(id)
+        ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS Enigmes
+(
+    id INT NOT NULL AUTO_INCREMENT,
+    texte TEXT NOT NULL,
+    isActive BIT NOT NULL DEFAULT b'1',
+    PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO Enigmes (texte, isActive)
+SELECT 'Un rugissement fend la jungle. Releve un defi pour continuer.', b'1'
+WHERE NOT EXISTS (
+    SELECT 1 FROM Enigmes
+    WHERE texte = 'Un rugissement fend la jungle. Releve un defi pour continuer.'
+);
+
+INSERT INTO Enigmes (texte, isActive)
+SELECT 'La jungle te met a l''epreuve. Reponds a la question du maitre du jeu.', b'1'
+WHERE NOT EXISTS (
+    SELECT 1 FROM Enigmes
+    WHERE texte = 'La jungle te met a l''epreuve. Reponds a la question du maitre du jeu.'
+);
+
+INSERT INTO Enigmes (texte, isActive)
+SELECT 'Une brume etrange t''entoure. Si tu echoues, recule de deux cases.', b'1'
+WHERE NOT EXISTS (
+    SELECT 1 FROM Enigmes
+    WHERE texte = 'Une brume etrange t''entoure. Si tu echoues, recule de deux cases.'
+);
+
+INSERT INTO Enigmes (texte, isActive)
+SELECT 'Des tambours resonnent. Toute la table retient son souffle.', b'1'
+WHERE NOT EXISTS (
+    SELECT 1 FROM Enigmes
+    WHERE texte = 'Des tambours resonnent. Toute la table retient son souffle.'
+);
+
+INSERT INTO Enigmes (texte, isActive)
+SELECT 'Une liane te coupe la route. Garde ton calme et avance.', b'1'
+WHERE NOT EXISTS (
+    SELECT 1 FROM Enigmes
+    WHERE texte = 'Une liane te coupe la route. Garde ton calme et avance.'
+);
+
+INSERT INTO Enigmes (texte, isActive)
+SELECT 'La jungle te teste. Une bonne reponse peut sauver ton equipe.', b'1'
+WHERE NOT EXISTS (
+    SELECT 1 FROM Enigmes
+    WHERE texte = 'La jungle te teste. Une bonne reponse peut sauver ton equipe.'
+);

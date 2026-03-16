@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1 test jeu jumanji\\test martye\\test martye.csproj",
+      "projectUniqueName": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\test martye.csproj",
       "projectName": "test martye",
-      "projectPath": "E:\\1 test jeu jumanji\\test martye\\test martye.csproj",
+      "projectPath": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\test martye.csproj",
       "packagesPath": "C:\\Users\\230610\\.nuget\\packages\\",
-      "outputPath": "E:\\1 test jeu jumanji\\test martye\\obj\\",
+      "outputPath": "E:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\1 test jeu jumanji\\test martye\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\SOFT\\Microsoft Visual Studio\\Shared\\NuGetPackages"
