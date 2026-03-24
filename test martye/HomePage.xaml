@@ -1,0 +1,90 @@
+<Page x:Class="test_martye.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="#1E472A"
+      Loaded="Page_Loaded">
+    <Grid Margin="32">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel HorizontalAlignment="Center">
+            <TextBlock Text="Jumanji Plateau"
+                       FontSize="42"
+                       FontWeight="Bold"
+                       Foreground="#F3D17C"
+                       TextAlignment="Center" />
+            <TextBlock Text="Choisissez combien de joueurs vont entrer dans la jungle."
+                       Margin="0,12,0,0"
+                       FontSize="18"
+                       Foreground="#FFF4D6"
+                       TextAlignment="Center" />
+        </StackPanel>
+
+        <Border Grid.Row="1"
+                Margin="0,28,0,0"
+                Padding="28"
+                CornerRadius="20"
+                Background="#CC102C1B"
+                BorderBrush="#80F3D17C"
+                BorderThickness="2">
+            <StackPanel VerticalAlignment="Center">
+                <Button x:Name="TwoPlayersButton"
+                        Tag="2"
+                        Click="PlayerCountButton_Click"
+                        Margin="0,0,0,18"
+                        Padding="18"
+                        FontSize="28"
+                        FontWeight="Bold"
+                        Background="#E8D27C"
+                        Foreground="#203518"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Content="2 joueurs" />
+
+                <TextBlock x:Name="TwoPlayersSaveText"
+                           Margin="4,0,0,18"
+                           FontSize="16"
+                           Foreground="#FFF4D6" />
+
+                <Button x:Name="ThreePlayersButton"
+                        Tag="3"
+                        Click="PlayerCountButton_Click"
+                        Margin="0,0,0,18"
+                        Padding="18"
+                        FontSize="28"
+                        FontWeight="Bold"
+                        Background="#D4E19A"
+                        Foreground="#203518"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Content="3 joueurs" />
+
+                <TextBlock x:Name="ThreePlayersSaveText"
+                           Margin="4,0,0,18"
+                           FontSize="16"
+                           Foreground="#FFF4D6" />
+
+                
+
+                <Button x:Name="FourPlayersButton"
+                        Tag="4"
+                        Click="PlayerCountButton_Click"
+                        Padding="18"
+                        FontSize="28"
+                        FontWeight="Bold"
+                        Background="#B8E0D2"
+                        Foreground="#203518"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Content="4 joueurs" />
+
+                <TextBlock x:Name="FourPlayersSaveText"
+                           Margin="4,18,0,0"
+                           FontSize="16"
+                           Foreground="#FFF4D6" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>
