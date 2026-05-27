@@ -1,0 +1,85 @@
+<Page x:Class="test_martye.LandingPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="#163724">
+    <Grid>
+        <!-- Fond jungle avec un degrade sombre pour poser l'ambiance du jeu -->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0C2418" Offset="0" />
+                <GradientStop Color="#163724" Offset="0.45" />
+                <GradientStop Color="#264837" Offset="1" />
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <!-- Formes decoratives pour donner un rendu plus vivant a l'ecran d'accueil -->
+        <Canvas IsHitTestVisible="False">
+            <Ellipse Width="420" Height="420" Fill="#16F3D17C" Canvas.Left="-120" Canvas.Top="-80" />
+            <Ellipse Width="300" Height="300" Fill="#12FFF4D6" Canvas.Right="-40" Canvas.Top="60" />
+            <Ellipse Width="460" Height="460" Fill="#12203318" Canvas.Left="760" Canvas.Top="260" />
+        </Canvas>
+
+        <Grid Margin="42">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.05*" />
+                <ColumnDefinition Width="0.95*" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel VerticalAlignment="Center"
+                        Margin="0,0,24,0">
+                <TextBlock Text="JUMANJI"
+                           FontSize="72"
+                           FontWeight="Bold"
+                           Foreground="#F3D17C" />
+                <TextBlock Text="Le plateau vous appelle. Entrez dans la jungle, rassemblez les joueurs et survivez aux events comme aux enigmes."
+                           Margin="0,18,0,0"
+                           FontSize="22"
+                           Foreground="#FFF4D6"
+                           TextWrapping="Wrap" />
+                <TextBlock Text="Cliquez sur Jouer pour ouvrir le menu de selection des participants."
+                           Margin="0,16,0,0"
+                           FontSize="18"
+                           Foreground="#E6E0C0"
+                           TextWrapping="Wrap" />
+
+                <Button x:Name="PlayButton"
+                        Width="240"
+                        Height="74"
+                        Margin="0,28,0,0"
+                        HorizontalAlignment="Left"
+                        Click="PlayButton_Click"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Background="#E8D27C"
+                        Foreground="#203518"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Content="Jouer" />
+            </StackPanel>
+
+            <Border Grid.Column="1"
+                    Width="470"
+                    Height="470"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Padding="14"
+                    CornerRadius="28"
+                    Background="#B6102C1B"
+                    BorderBrush="#90F3D17C"
+                    BorderThickness="2"
+                    RenderTransformOrigin="0.5,0.5">
+                <Border.RenderTransform>
+                    <RotateTransform Angle="-3" />
+                </Border.RenderTransform>
+
+                <!-- Visuel d'accueil : on reutilise le plateau pour que le joueur reconnaisse tout de suite l'univers -->
+                <Border CornerRadius="20">
+                    <Border.Background>
+                        <ImageBrush ImageSource="Images/plateau.png"
+                                    Stretch="UniformToFill" />
+                    </Border.Background>
+                </Border>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

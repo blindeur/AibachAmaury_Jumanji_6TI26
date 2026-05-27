@@ -1,0 +1,15 @@
+<Application x:Class="test_martye.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <!--
+        App.xaml est le point d'entree declaratif de l'application WPF.
+        StartupUri indique quelle fenetre doit etre ouverte en premier.
+    -->
+    <Application.Resources>
+        <!--
+            Les ressources globales de l'application pourraient etre placees ici
+            si le projet avait besoin de styles reutilisables partout.
+        -->
+    </Application.Resources>
+</Application>

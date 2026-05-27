@@ -287,23 +287,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\230610\\.nuget\\packages\\": {},
-    "D:\\SOFT\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Amaury\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\test martye\\test martye.csproj",
+      "projectUniqueName": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\test martye\\test martye.csproj",
       "projectName": "test martye",
-      "projectPath": "E:\\test martye\\test martye.csproj",
-      "packagesPath": "C:\\Users\\230610\\.nuget\\packages\\",
-      "outputPath": "E:\\test martye\\obj\\",
+      "projectPath": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\test martye\\test martye.csproj",
+      "packagesPath": "C:\\Users\\Amaury\\.nuget\\packages\\",
+      "outputPath": "A:\\6 eme info\\AibachAmaury_Jumanji_6TI26\\test martye\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\SOFT\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\230610\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amaury\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -361,7 +361,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -663,7 +663,7 @@
       "message": "Le package 'BouncyCastle.Cryptography' 2.2.1 présente une vulnérabilité de gravité moyenne connue, https://github.com/advisories/GHSA-8xfc-gm6g-vgpv.",
       "libraryId": "BouncyCastle.Cryptography",
       "targetGraphs": [
-        "net10.0-windows7.0"
+        "net10.0-windows"
       ]
     },
     {
@@ -673,7 +673,7 @@
       "message": "Le package 'BouncyCastle.Cryptography' 2.2.1 présente une vulnérabilité de gravité moyenne connue, https://github.com/advisories/GHSA-m44j-cfrm-g8qc.",
       "libraryId": "BouncyCastle.Cryptography",
       "targetGraphs": [
-        "net10.0-windows7.0"
+        "net10.0-windows"
       ]
     },
     {
@@ -683,7 +683,7 @@
       "message": "Le package 'BouncyCastle.Cryptography' 2.2.1 présente une vulnérabilité de gravité moyenne connue, https://github.com/advisories/GHSA-v435-xc8x-wvr9.",
       "libraryId": "BouncyCastle.Cryptography",
       "targetGraphs": [
-        "net10.0-windows7.0"
+        "net10.0-windows"
       ]
     }
   ]

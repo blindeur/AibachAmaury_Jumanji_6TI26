@@ -1,0 +1,222 @@
+<Page x:Class="test_martye.GamePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="#163724">
+    <!--
+        Cette page represente la partie en cours.
+        L'idee generale est de separer l'ecran en deux grandes zones :
+        - a gauche : le plateau visuel,
+        - a droite : le panneau de controle et d'informations.
+    -->
+    <Grid Margin="8"
+          HorizontalAlignment="Center"
+          VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <!-- Colonne 0 : zone du plateau -->
+            <ColumnDefinition Width="760" />
+            <!-- Colonne 1 : simple espace entre le plateau et le panneau -->
+            <ColumnDefinition Width="28" />
+            <!-- Colonne 2 : panneau lateral -->
+            <ColumnDefinition Width="320" />
+        </Grid.ColumnDefinitions>
+
+        <!--
+            Conteneur du plateau.
+            Sa taille est fixe pour respecter la demande :
+            le terrain ne doit pas s'agrandir quand la fenetre devient plus grande.
+        -->
+        <Border Grid.Column="0"
+                Width="760"
+                Height="760"
+                Padding="12"
+                CornerRadius="22"
+                Background="#173926"
+                BorderBrush="#9FAD9150"
+                BorderThickness="2">
+            <!--
+                BoardGrid recoit deux choses :
+                - l'image du plateau en fond,
+                - les boutons transparents des cases par-dessus.
+            -->
+            <Canvas x:Name="BoardGrid"
+                    Width="736"
+                    Height="736"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+                <Canvas.Background>
+                    <ImageBrush ImageSource="Images/plateau.png"
+                                Stretch="Fill"
+                                AlignmentX="Center"
+                                AlignmentY="Center" />
+                </Canvas.Background>
+            </Canvas>
+        </Border>
+
+        <!-- Panneau lateral avec les informations de partie -->
+        <Border Grid.Column="2"
+                Padding="18"
+                CornerRadius="22"
+                Background="#D6D1A8">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Bloc titre -->
+                <StackPanel>
+                    <TextBlock Text="Partie en cours"
+                               FontSize="36"
+                               FontWeight="Bold"
+                               Foreground="#102F1F" />
+                    <TextBlock x:Name="PlayerCountText"
+                               Margin="0,8,0,0"
+                               FontSize="16"
+                               Foreground="#264837" />
+                </StackPanel>
+
+                <!-- Bloc tour actuel -->
+                <Border Grid.Row="1"
+                        Margin="0,22,0,0"
+                        Padding="16"
+                        CornerRadius="18"
+                        Background="#FFF8EE">
+                    <StackPanel>
+                        <TextBlock Text="Tour actuel"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#102F1F" />
+                        <TextBlock x:Name="CurrentPlayerText"
+                                   Margin="0,10,0,0"
+                                   FontSize="22"
+                                   FontWeight="SemiBold"
+                                   Foreground="#2D6DCA" />
+                        <TextBlock x:Name="DiceText"
+                                   Margin="0,12,0,0"
+                                   FontSize="17"
+                                   Foreground="#102F1F" />
+                        <TextBlock x:Name="StatusText"
+                                   Margin="0,10,0,0"
+                                   FontSize="15"
+                                   TextWrapping="Wrap"
+                                   Foreground="#345444" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Bloc enigme / reponse -->
+                <Border Grid.Row="2"
+                        Margin="0,18,0,0"
+                        Padding="16"
+                        CornerRadius="18"
+                        Background="#FFF8EE">
+                    <StackPanel>
+                        <TextBlock Text="Derniere question"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#102F1F" />
+                        <TextBlock x:Name="QuestionPromptText"
+                                   Margin="0,10,0,0"
+                                   FontSize="15"
+                                   TextWrapping="Wrap"
+                                   Foreground="#345444" />
+                        <TextBlock x:Name="QuestionHintText"
+                                   Margin="0,8,0,0"
+                                   FontSize="14"
+                                   TextWrapping="Wrap"
+                                   Foreground="#7B5A1E" />
+                        <TextBlock x:Name="QuestionStateText"
+                                   Margin="0,8,0,0"
+                                   FontSize="14"
+                                   TextWrapping="Wrap"
+                                   Foreground="#345444" />
+
+                        <!-- Zone de saisie visible uniquement quand une enigme est en attente -->
+                        <StackPanel x:Name="AnswerPanel"
+                                    Margin="0,10,0,0">
+                            <TextBox x:Name="AnswerTextBox"
+                                     Height="38"
+                                     VerticalContentAlignment="Center"
+                                     FontSize="16"
+                                     KeyDown="AnswerTextBox_KeyDown" />
+                            <Button x:Name="SubmitAnswerButton"
+                                    Height="40"
+                                    Margin="0,10,0,0"
+                                    Click="SubmitAnswerButton_Click"
+                                    FontSize="16"
+                                    FontWeight="SemiBold"
+                                    Background="#355627"
+                                    Foreground="White"
+                                    BorderThickness="0"
+                                    Cursor="Hand"
+                                    Content="Valider la reponse" />
+                        </StackPanel>
+
+                        <!-- Resume du dernier event applique -->
+                        <Border Margin="0,14,0,0"
+                                Padding="10"
+                                CornerRadius="12"
+                                Background="#F3E8C3">
+                            <StackPanel>
+                                <TextBlock Text="Dernier event"
+                                           FontSize="14"
+                                           FontWeight="Bold"
+                                           Foreground="#102F1F" />
+                                <TextBlock x:Name="LastEventText"
+                                           Margin="0,6,0,0"
+                                           FontSize="13"
+                                           TextWrapping="Wrap"
+                                           Foreground="#345444" />
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Border>
+
+                <!-- Liste des joueurs -->
+                <Border Grid.Row="3"
+                        Margin="0,18,0,0"
+                        Padding="16"
+                        CornerRadius="18"
+                        Background="#FFF8EE">
+                    <StackPanel>
+                        <TextBlock Text="Joueurs"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#102F1F" />
+                        <StackPanel x:Name="PlayersPanel"
+                                    Margin="0,10,0,0" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Boutons d'action -->
+                <StackPanel Grid.Row="4"
+                            Margin="0,18,0,0">
+                    <Button x:Name="RollDiceButton"
+                            Height="58"
+                            Click="RollDiceButton_Click"
+                            Margin="0,0,0,12"
+                            FontSize="24"
+                            FontWeight="Bold"
+                            Background="#EED87B"
+                            Foreground="#203518"
+                            BorderThickness="0"
+                            Cursor="Hand"
+                            Content="Lancer le de" />
+
+                    <Button x:Name="SaveAndQuitButton"
+                            Height="54"
+                            Click="SaveAndQuitButton_Click"
+                            FontSize="18"
+                            FontWeight="SemiBold"
+                            Background="#355627"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Cursor="Hand"
+                            Content="Quitter et sauvegarder" />
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

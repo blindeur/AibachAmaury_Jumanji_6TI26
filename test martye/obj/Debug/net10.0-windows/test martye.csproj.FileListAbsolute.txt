@@ -115,3 +115,43 @@ E:\test martye\obj\Debug\net10.0-windows\HomePage.g.cs
 E:\test martye\obj\Debug\net10.0-windows\test mar.29D4E0EA.Up2Date
 E:\test martye\bin\Debug\net10.0-windows\song\drum.mp3
 E:\test martye\obj\Debug\net10.0-windows\test martye_Content.g.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\song\drum.mp3
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\test martye.exe
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\test martye.deps.json
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\test martye.runtimeconfig.json
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\test martye.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\test martye.pdb
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\BouncyCastle.Cryptography.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\Google.Protobuf.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\K4os.Compression.LZ4.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\K4os.Compression.LZ4.Streams.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\K4os.Hash.xxHash.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\MySql.Data.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\ZstdSharp.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\runtimes\win-x64\native\comerr64.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\runtimes\win-x64\native\gssapi64.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\runtimes\win-x64\native\k5sprt64.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\runtimes\win-x64\native\krb5_64.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.csproj.AssemblyReference.cache
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\GamePage.baml
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\HomePage.baml
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\MainWindow.baml
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\GamePage.g.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\HomePage.g.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\MainWindow.g.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\App.g.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye_Content.g.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye_MarkupCompile.cache
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.g.resources
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.GeneratedMSBuildEditorConfig.editorconfig
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.AssemblyInfoInputs.cache
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.AssemblyInfo.cs
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.csproj.CoreCompileInputs.cache
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.sourcelink.json
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test mar.29D4E0EA.Up2Date
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\refint\test martye.dll
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.pdb
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\test martye.genruntimeconfig.cache
+A:\6 eme info\AibachAmaury_Jumanji_6TI26\test martye\obj\Debug\net10.0-windows\ref\test martye.dll

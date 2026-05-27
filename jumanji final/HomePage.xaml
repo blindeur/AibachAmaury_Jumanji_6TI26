@@ -1,0 +1,189 @@
+<Page x:Class="test_martye.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="#163724"
+      Loaded="Page_Loaded">
+    <Grid>
+        <!-- Meme ambiance que l'accueil pour garder une identite visuelle stable -->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0E261A" Offset="0" />
+                <GradientStop Color="#1E472A" Offset="0.45" />
+                <GradientStop Color="#355627" Offset="1" />
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <!-- Cercles decoratifs pour eviter un fond trop plat -->
+        <Canvas IsHitTestVisible="False">
+            <Ellipse Width="360" Height="360" Fill="#1EF3D17C" Canvas.Left="-110" Canvas.Top="-70" />
+            <Ellipse Width="280" Height="280" Fill="#14FFF4D6" Canvas.Right="-60" Canvas.Top="40" />
+            <Ellipse Width="420" Height="420" Fill="#12203318" Canvas.Left="720" Canvas.Top="300" />
+        </Canvas>
+
+        <Grid Margin="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Bandeau titre du menu de selection -->
+            <Border Padding="28"
+                    CornerRadius="24"
+                    Background="#AA102C1B"
+                    BorderBrush="#80F3D17C"
+                    BorderThickness="2">
+                <StackPanel>
+                    <TextBlock Text="Selection des joueurs"
+                               FontSize="46"
+                               FontWeight="Bold"
+                               Foreground="#F3D17C"
+                               HorizontalAlignment="Center" />
+                    <TextBlock Text="Choisissez combien d'aventuriers vont entrer sur le plateau."
+                               Margin="0,12,0,0"
+                               FontSize="20"
+                               Foreground="#FFF4D6"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center" />
+                    <TextBlock Text="Si une partie existe deja pour ce nombre de joueurs, elle sera reprise automatiquement."
+                               Margin="0,10,0,0"
+                               FontSize="16"
+                               Foreground="#E6E0C0"
+                               TextAlignment="Center" />
+                </StackPanel>
+            </Border>
+
+            <!-- Trois cartes : 2 joueurs, 3 joueurs, 4 joueurs -->
+            <Grid Grid.Row="1" Margin="0,34,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0"
+                        Margin="0,0,14,0"
+                        Padding="20"
+                        CornerRadius="22"
+                        Background="#CC102C1B"
+                        BorderBrush="#A0E8D27C"
+                        BorderThickness="2">
+                    <StackPanel>
+                        <TextBlock Text="Expedition duo"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#F3D17C" />
+                        <TextBlock Text="Deux joueurs affrontent les events et les enigmes de la jungle."
+                                   Margin="0,12,0,18"
+                                   FontSize="15"
+                                   Foreground="#FFF4D6"
+                                   TextWrapping="Wrap" />
+                        <Button x:Name="TwoPlayersButton"
+                                Tag="2"
+                                Click="PlayerCountButton_Click"
+                                Height="78"
+                                FontSize="28"
+                                FontWeight="Bold"
+                                Background="#E8D27C"
+                                Foreground="#203518"
+                                BorderThickness="0"
+                                Cursor="Hand"
+                                Content="2 joueurs" />
+                        <TextBlock x:Name="TwoPlayersSaveText"
+                                   Margin="0,16,0,0"
+                                   FontSize="15"
+                                   Foreground="#FFF4D6"
+                                   TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="1"
+                        Margin="7,0"
+                        Padding="20"
+                        CornerRadius="22"
+                        Background="#CC102C1B"
+                        BorderBrush="#A0D4E19A"
+                        BorderThickness="2">
+                    <StackPanel>
+                        <TextBlock Text="Tribu equilibree"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#D4E19A" />
+                        <TextBlock Text="Trois joueurs avancent chacun avec leur couleur et leur destin."
+                                   Margin="0,12,0,18"
+                                   FontSize="15"
+                                   Foreground="#FFF4D6"
+                                   TextWrapping="Wrap" />
+                        <Button x:Name="ThreePlayersButton"
+                                Tag="3"
+                                Click="PlayerCountButton_Click"
+                                Height="78"
+                                FontSize="28"
+                                FontWeight="Bold"
+                                Background="#D4E19A"
+                                Foreground="#203518"
+                                BorderThickness="0"
+                                Cursor="Hand"
+                                Content="3 joueurs" />
+                        <TextBlock x:Name="ThreePlayersSaveText"
+                                   Margin="0,16,0,0"
+                                   FontSize="15"
+                                   Foreground="#FFF4D6"
+                                   TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="2"
+                        Margin="14,0,0,0"
+                        Padding="20"
+                        CornerRadius="22"
+                        Background="#CC102C1B"
+                        BorderBrush="#A0B8E0D2"
+                        BorderThickness="2">
+                    <StackPanel>
+                        <TextBlock Text="Equipe complete"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#B8E0D2" />
+                        <TextBlock Text="Quatre joueurs, quatre pions, et une jungle encore plus agressive."
+                                   Margin="0,12,0,18"
+                                   FontSize="15"
+                                   Foreground="#FFF4D6"
+                                   TextWrapping="Wrap" />
+                        <Button x:Name="FourPlayersButton"
+                                Tag="4"
+                                Click="PlayerCountButton_Click"
+                                Height="78"
+                                FontSize="28"
+                                FontWeight="Bold"
+                                Background="#B8E0D2"
+                                Foreground="#203518"
+                                BorderThickness="0"
+                                Cursor="Hand"
+                                Content="4 joueurs" />
+                        <TextBlock x:Name="FourPlayersSaveText"
+                                   Margin="0,16,0,0"
+                                   FontSize="15"
+                                   Foreground="#FFF4D6"
+                                   TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <!-- Rappel visuel sur le plateau fixe -->
+            <Border Grid.Row="2"
+                    Margin="0,26,0,0"
+                    Padding="16"
+                    CornerRadius="18"
+                    Background="#8A102C1B"
+                    BorderBrush="#40F3D17C"
+                    BorderThickness="1.5">
+                <TextBlock Text="Le plateau garde une taille fixe pendant la partie pour rester fidele au visuel du jeu."
+                           FontSize="15"
+                           Foreground="#FFF4D6"
+                           TextAlignment="Center"
+                           TextWrapping="Wrap" />
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

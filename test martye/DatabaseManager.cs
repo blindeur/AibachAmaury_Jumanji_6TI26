@@ -13,8 +13,8 @@ namespace test_martye
         private static readonly string[] DefaultColors = { "#C62828", "#1565C0", "#F9A825", "#2E7D32" };
 
         private readonly string connectionString =
-            "server=10.10.51.98;database=amaury;port=3306;User Id=Amaury;password=root;Pooling=true;MinimumPoolSize=0;MaximumPoolSize=10;";// amaury
-
+            //"server=10.10.51.98;database=amaury;port=3306;User Id=Amaury;password=root;Pooling=true;MinimumPoolSize=0;MaximumPoolSize=10;";// amaury
+            "server=localhost;database=jumanji_db;port=3306;User Id=root;password=Amaury2006@;";
         public DatabaseManager()
         {
             EnsureDatabase();
