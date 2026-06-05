@@ -1,2 +1,10 @@
 # AibachAmaury_Jumanji_6TI26
-reproduction du jeu de plateau jumanji en wpf c# adapter pour un usage numérique récréatif
+Jumanji - Jeu de Plateau en WPF C#
+
+Ce projet a été réalisé dans le cadre de mon Travail de Fin d'Études en informatique et consiste en la création d'une adaptation numérique du célèbre jeu de plateau Jumanji à l'aide de C# et WPF. L'objectif de ce projet était de mettre en pratique les connaissances acquises durant ma formation en développement logiciel tout en relevant le défi de concevoir un jeu interactif complet avec une interface graphique moderne et intuitive.
+
+Le principe du jeu est simple : plusieurs joueurs s'affrontent sur un plateau en lançant un dé afin de progresser jusqu'à la case finale. Chaque déplacement est géré automatiquement par le programme, permettant une expérience fluide et immersive. Le projet intègre différentes fonctionnalités telles que la gestion des joueurs, le système de tours, le lancer de dé aléatoire, le déplacement des pions sur le plateau ainsi qu'une interface graphique développée avec WPF. Une base de données est également utilisée afin de stocker et gérer certaines informations nécessaires au bon fonctionnement du jeu.
+
+Au-delà de l'aspect ludique, ce projet m'a permis d'approfondir de nombreux concepts informatiques tels que la programmation orientée objet, la conception d'interfaces utilisateur, la gestion des événements, la manipulation de données ainsi que le travail collaboratif sur un projet de développement. Il m'a également permis d'acquérir de l'expérience dans la résolution de problèmes techniques liés à la gestion des déplacements, à l'affichage dynamique des éléments graphiques et à l'organisation du code dans une application de taille plus importante.
+
+Même si le projet est largement fonctionnel, certaines améliorations restent envisageables pour enrichir davantage l'expérience de jeu, comme l'ajout de nouveaux événements, d'animations plus avancées, d'effets sonores ou encore d'un mode multijoueur en réseau. Ce projet représente une étape importante dans mon parcours d'étudiant en informatique et témoigne de mon intérêt pour le développement logiciel, la création d'applications interactives et la conception de solutions techniques complètes.
